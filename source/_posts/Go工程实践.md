@@ -1,7 +1,7 @@
 ---
 title: Go工程实践
 date: 2023-05-19 17:11:55
-tags: ByteDance
+categories: ByteDance
 ---
 
 # Go语言工程实践

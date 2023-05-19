@@ -1,7 +1,7 @@
 ---
 title: Go基础语法
 date: 2023-05-19 17:07:30
-tags: ByteDance-End
+categories: ByteDance-End
 ---
 
 # Go语言基础语法
