@@ -5,7 +5,7 @@
 # Site
 title: Running Noob
 subtitle: Do Something Cool
-description: ''
+description: 华东理工大学 - 计算机硕士在读<br>研究方向：云计算
 keywords:
 author: 方卓越
 language: zh-CN
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 marked:
   prependRoot: true
   postAsset: true
@@ -121,3 +121,38 @@ excerpt:			# 一定要顶格写，注意格式
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: true
+
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'
+    - '**/clicklove.js'
+    - '**/firework.js'
+  
+symbols_count_time:
+  symbols: true # 文章字数
+  time: true # 阅读时长
+  total_symbols: true # 所有文章总字数
+  total_time: true # 所有文章阅读中时长
+  exclude_codeblock: true
+  awl: 4
+  wpm: 275
+  suffix: "mins."
